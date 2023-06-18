@@ -26,6 +26,15 @@ sudo git clone https://github.com/Jenstel/Kinopoisk.bundle.git
 sudo chown -R plex:plex Kinopoisk.bundle/
 sudo systemctl restart plexmediaserver
 ```
+### TrueNAS
+```
+sudo apt update && sudo apt install -y git
+cd /mnt/[touch path]/Library/Application\ Support/Plex\ Media\ Server/Plug-ins/
+sudo git clone https://github.com/Jenstel/Kinopoisk.bundle.git
+sudo chown -R apps:apps Kinopoisk.bundle/
+```
+
+
 ### FreeBSD
 Распакуйте скачанный архив в папку `/usr/local/plexdata/Plex Media Server/`
 
